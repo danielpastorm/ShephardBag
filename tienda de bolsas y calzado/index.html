@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BagShoe Style</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&family=Lato:ital,wght@1,100&family=Roboto:wght@100&family=Shantell+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Pastor/Diseño sin título (1).png">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row logodiv">
+            <div class="col-lg-12">
+                <a href="index.html"><img src="img/Shephard.svg" class="logo"></a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12 navbardiv">
+                <nav class="navbar navbar-expand-lg navbar-light bgcolor">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html"></a>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Novedades</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Bolsas de mano</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Mujer</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hombre</a>
+                                </li>
+                                <li class="nav-item dropdown ">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Productos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="prueba.html">Bolsas</a></li>
+                                        <li><a class="dropdown-item" href="#">Zapatos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <span class="fa fa-shopping-cart my-cart-icon"><span
+                                                class="badge badge-notify my-cart-badge"></span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div> <!-- Termine navbar desplegable -->
+    </div>
+
+
+
+    <div class="container">
+        <div class="row slidermargin">
+            <div class="col-12">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <a href="shop.html"><img src="img/Mujer tacones banner.svg" class="d-block w-1000"
+                                    alt="..."></a>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <a href=""><img src="img/abandonada.svg" class="d-block w-1000" alt="..."></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href=""><img src="img/mujer tacones blancos banner.svg" class="d-block w-1000" alt="..."></a> 
+                        </div>
+                        <div class="carousel-item">
+                            <a href=""><img src="img/mujer acostada banner.svg" class="d-block w-1000" alt="..."></a> 
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <a href=""><img src="img/handbags-2251083.jpg" class="card-img" alt="..."></a>                   
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">                  
+                    <a href=""><img src="img/handbags-2251084.jpg" class="card-img" alt="..."></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <a href=""><img src="img/handbags-2251085.jpg" class="card-img" alt="..."></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <div class="card text-bg-dark">  
+                    <img src="img/handbags-2251088.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="" style="text-decoration: none;"><h1>Bolso Versace Jeans</h1></a>
+                        <p class="card-text">Bolsa Bordada a mano fabricada a base de piel sintetica.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/handbags-2251086.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Card title</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/handbags-2251087.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Card title</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/handbags-2251089.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Card title</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/handbags-2251090.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Card title</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/handbags-2251092.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Card title</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5" style="background-color: lightblue;"">
+        <div class=" row">
+        <div class="col-lg-12 col-sm-12">
+            <div class="intermedio">
+                <h1> <br> Explora nuestra Colección</h1>
+            </div>
+            <div class="intermediotext">
+                <h3>Miles de zapatos de la más alta calidad
+                    <br>
+                    Bolsas bordadas con alta costura y porte. <br><br><br>
+                </h3>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/hd-wallpaper-4542693.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Botas Shannel</h5></a>
+                    </div>
+                </divlg-4 col-md-12 col-sm-12
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/high-heels-3866610.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Tacones paris hillton</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/legs.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Conjunto Gucci</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/model-5545214.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Conjunto tacones-mayas</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/sandals-4124759.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Tacones BeeHoney</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/retro-1772589.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Grey feels</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/shoe-1591920.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">White storm</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/shoes-616114.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Tacones Indian</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/shoes-616201.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Tacones Fofo</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/shoes-848064.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Graduation Night</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/woman-5536359.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">WhiteLove</h5></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/woman-7276057.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href=""><h5 class="card-title">Conjunto Lenceria</h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="card text-center">
+                <img src="img/bra midsection.svg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                    <div class="alert alert-info" role="alert">
+                        <h5 class="card-title compromiso">NUESTRO COMPROMISO </h5>
+                        <p class="card-text texto-compromiso">Todos nuestros productos son fabricados a mano
+                            por nuestros artesanos de comunidades en extinción
+                            destinamos un porcentaje de las ganancias a centros de
+                            ayuda para las comunidades mas necesitadas.</p>
+                        <p class="card-text"><small></small></p>
+                    </div>
+                </div>
+            </div>
+            <h1 class="promocion"></h1>
+            <h2 class="promocion"></h2>
+        </div>
+    </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/woman-7276057.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" type="button" class="btn btn-success"><span class="text"> Ahorra
+                                $3,160.00</span></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/bra-3088998.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" type="button" class="btn btn-success"><span class="text"> Ahorra
+                                $3,160.00</span></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-bg-dark">
+                    <img src="img/shoes-7238033.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <a href="#" type="button" class="btn btn-success"><span class="text"> Ahorra
+                                $3,160.00</span></button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item"><a class="page-link" href="#">6</a></li>
+                    <li class="page-item"><a class="page-link" href="#">7</a></li>
+                    <li class="page-item"><a class="page-link" href="#">8</a></li>
+                    <li class="page-item"><a class="page-link" href="#">9</a></li>
+                    <li class="page-item"><a class="page-link" href="#">10</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Siguiente</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Conectate con nosotros a través de nuestras Redes Sociales:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Shephard
+                        </h6>
+                        <p>
+                            Si necesitas Facturar Ingresa a nuestro <a href="#">portal de facturas </a>, recuerda tener
+                            a la mano tus datos de compra.
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Categorias
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Nuestro compromiso</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Trabaja con nosotros</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Proveedores</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Empleados</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Novedades
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Ofertas</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Compra en Linea</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Representantes</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Ayuda</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i>direccion de las instalaciones</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            shephard@spd.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 52 56 1313 2222</p>
+                        <p><i class="fas fa-print me-3"></i> + 52 56 2345 6789</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Copyright:
+            <a class="text-reset fw-bold" href="#">Shephard.com.mx</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->F
+
+
+
+
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <!-- <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script> -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
